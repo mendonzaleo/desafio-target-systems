@@ -19,11 +19,9 @@ public class CalcularFibonacci {
             Optional<Integer> resposta = fibonacci.stream().
                     filter(n -> n == numero)
                     .findFirst();
-            if(resposta.isPresent()){
+            if(resposta.isPresent()) {
                 System.out.println(fibonacci);
-                System.out.println("Número " + resposta.get() + " encontrado na sequência de Fibonacci!");
-            } else {
-                System.out.println("Número não existe na sequência de Fibonacci!");
+                System.out.println("Número " + resposta.get() + " está presente na sequência de Fibonacci!");
             }
 
         }
