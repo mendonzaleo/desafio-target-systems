@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Questão 01");
         int INDICE = 13, SOMA = 0, K = 0;
         while(K < INDICE){ K = K + 1; SOMA = SOMA + K; }
-        System.out.println(SOMA);
+        System.out.println("A soma é " + SOMA);
 //        SOMA IGUAL A = 91
 
 //        QUESTÃO 02
